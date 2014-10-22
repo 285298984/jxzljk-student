@@ -24,7 +24,6 @@ public class CourseScheduleActivity extends Activity {
 
 	String[][] text = new String[6][8];
 	String[][] text1 = new String[30][6];
-	String[][] str1 = new String[2][2];
 	GridView gridview;
 	ArrayList<HashMap<String, Object>> meumList;
 	HashMap<String, Object> map;
