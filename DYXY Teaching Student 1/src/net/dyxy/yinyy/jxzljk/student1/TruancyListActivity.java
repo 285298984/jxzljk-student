@@ -1,16 +1,33 @@
 package net.dyxy.yinyy.jxzljk.student1;
 
 import android.app.Activity;
+import android.database.Cursor;
 import android.os.Bundle;
+import android.support.v4.widget.SimpleCursorAdapter;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
+import android.widget.TextView;
 
 public class TruancyListActivity extends Activity {
+	private ListView listview;
+	private TextView truants;
+	private TextView courses;
+	private TextView days;
+	private TextView parts;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_truancy_list);
+		
+		listview=(ListView)findViewById(R.id.listview);
+		truants=(TextView)findViewById(R.id.truants);
+		courses=(TextView)findViewById(R.id.courses);
+		days=(TextView)findViewById(R.id.days);
+		parts=(TextView)findViewById(R.id.parts);
+		
+		
 	}
 
 	@Override
