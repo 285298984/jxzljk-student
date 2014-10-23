@@ -145,8 +145,7 @@ public class CourseScheduleActivity extends Activity {
 			gridview.setOnItemClickListener(new OnItemClickListener() {
 				public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
 						long arg3) {
-					int index = arg2 % 4;
-					switch (index) {
+					switch (arg2) {
 					case 0:
 						break;
 					case 1:
@@ -163,6 +162,12 @@ public class CourseScheduleActivity extends Activity {
 						break;
 					case 7:
 						break;
+					case 8:
+						break;
+					case 9:
+						break;
+					case 10:
+						break;
 					case 11:
 						break;
 					case 12:
@@ -176,6 +181,12 @@ public class CourseScheduleActivity extends Activity {
 					case 16:
 						break;
 					case 17:
+						break;
+					case 18:
+						break;
+					case 19:
+						break;
+					case 20:
 						break;
 					case 21:
 						break;
@@ -191,6 +202,12 @@ public class CourseScheduleActivity extends Activity {
 						break;
 					case 27:
 						break;
+					case 28:
+						break;
+					case 29:
+						break;
+					case 30:
+						break;
 					case 31:
 						break;
 					case 32:
@@ -204,6 +221,12 @@ public class CourseScheduleActivity extends Activity {
 					case 36:
 						break;
 					case 37:
+						break;
+					case 38:
+						break;
+					case 39:
+						break;
+					case 40:
 						break;
 					case 41:
 						break;
